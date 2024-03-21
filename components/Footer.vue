@@ -85,7 +85,7 @@
         <span>We are working with the systems:</span>
         <img src="../public/img/pay-pal.svg" alt="" />
         <img src="../public/img/mastercard.svg" alt="" />
-        <img src="../public/img__agreement/union-pay.svg" alt="" />
+        <img src="../public/img/union-pay.svg" alt="" />
         <img src="../public/img/visa.svg" alt="" />
       </div>
     </div>
