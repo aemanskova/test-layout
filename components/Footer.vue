@@ -89,7 +89,11 @@
         <img src="/img/visa.svg" alt="" />
       </div>
     </div>
-    <img class="footer__picture" src="/img/footer-picture.png" alt="" />
+    <img
+      class="footer__picture"
+      src="/test-layout/img/footer-picture.png"
+      alt=""
+    />
   </div>
 </template>
 
