@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -10,6 +11,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/image": "^1.4.0",
     "nuxt": "^3.11.1",
     "sass": "^1.72.0",
     "vue": "^3.4.21",
