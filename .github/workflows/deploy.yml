@@ -39,7 +39,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-
-      # Add the command to set NUXT_APP_BASE_URL
-      - name: Set NUXT_APP_BASE_URL
-        run: NUXT_APP_BASE_URL=/test-layout/ node .output/server/index.mjs
