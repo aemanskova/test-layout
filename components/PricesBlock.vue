@@ -1,0 +1,33 @@
+<template>
+  <div>
+    <WhiteBlock />
+    <ColorfulBlock
+      price="$37.5k"
+      color="#81b42e"
+      span="STARTX"
+      left="48%"
+      zIndex="100"
+    ></ColorfulBlock>
+    <ColorfulBlock
+      price="$75k"
+      color="#ffca00"
+      span="LIGHT"
+      left="41%"
+      zIndex="98"
+    ></ColorfulBlock>
+    <ColorfulBlock
+      price="$150k"
+      color="#ff8f28"
+      span="PLUS"
+      left="34%"
+      zIndex="80"
+    ></ColorfulBlock>
+    <ColorfulBlock
+      price="$225k"
+      color="#ff4e68"
+      span="PRO"
+      left="28%"
+      zIndex="70"
+    ></ColorfulBlock>
+  </div>
+</template>

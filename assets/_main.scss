@@ -1,0 +1,37 @@
+$primary: #8c35e3;
+$white: #ffffff;
+$black: #000000;
+$green: #81b42e;
+$yellow: #ffca00;
+$orange: #ff8f28;
+$pink: #ff4e68;
+
+@mixin center-flex {
+  display: flex;
+  justify-content: center;
+}
+@mixin space-between-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin part-border-style($width, $color) {
+  $border-style: $width solid $color;
+  border-left: $border-style;
+  border-top: $border-style;
+  border-right: $border-style;
+}
+
+@mixin linear-gradient($direction, $color-stops...) {
+  background: nth(nth($color-stops, 1), 1);
+  background: -webkit-linear-gradient(
+    legacy-direction($direction),
+    $color-stops
+  );
+  background: linear-gradient($direction, $color-stops);
+}
