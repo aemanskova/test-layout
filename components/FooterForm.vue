@@ -106,11 +106,7 @@
         <div class="form__block">
           <label for="name" hidden>Name</label>
           <input id="name" class="form__input" type="text" placeholder="Name" />
-          <img
-            class="form__picture"
-            src="../public/img/footer-girl.png"
-            alt=""
-          />
+          <img class="form__picture" src="/img/footer-girl.png" alt="" />
         </div>
 
         <label for="email" hidden>Email</label>

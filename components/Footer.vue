@@ -83,17 +83,13 @@
       <span class="footer__agreement">User agreement</span>
       <div class="footer__payblock">
         <span>We are working with the systems:</span>
-        <img src="../public/img/pay-pal.svg" alt="" />
-        <img src="../public/img/mastercard.svg" alt="" />
-        <img src="../public/img/union-pay.svg" alt="" />
-        <img src="../public/img/visa.svg" alt="" />
+        <img src="/img/pay-pal.svg" alt="" />
+        <img src="/img/mastercard.svg" alt="" />
+        <img src="/img/union-pay.svg" alt="" />
+        <img src="/img/visa.svg" alt="" />
       </div>
     </div>
-    <img
-      class="footer__picture"
-      src="../public/img/footer-picture.png"
-      alt=""
-    />
+    <img class="footer__picture" src="/img/footer-picture.png" alt="" />
   </div>
 </template>
 

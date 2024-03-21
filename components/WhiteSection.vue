@@ -2,7 +2,7 @@
   <div class="white-section">
     <img
       class="white-section__picture"
-      src="../public/img/girl-white-section.png"
+      src="/img/girl-white-section.png"
       alt=""
     />
     <BlackText
